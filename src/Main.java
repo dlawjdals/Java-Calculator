@@ -2,23 +2,26 @@
 public class Main {
     public static void main(String[] args) {
 
-        Calculator calc = new Calculator();
+        Calculator calc_add = new Calculator();
 
-        calc.setNumbers(5, 3);
-        calc.add();
-        calc.displayResult("+");
+        calc_add.setNumbers(5, 3);
+        calc_add.add();
+        calc_add.displayResult("+");
 
-        calc.setNumbers(10, 3);
-        calc.subtract();
-        calc.displayResult("-");
+        Calculator calc_sub = new Calculator();
+        calc_sub.setNumbers(10, 3);
+        calc_sub.subtract();
+        calc_sub.displayResult("-");
 
-        calc.setNumbers(5, 3);
-        calc.multiply();
-        calc.displayResult("*");
+        Calculator calc_mul = new Calculator();
+        calc_mul.setNumbers(5, 3);
+        calc_mul.multiply();
+        calc_mul.displayResult("*");
 
-        calc.setNumbers(5, 3);
-        calc.divide();
-        calc.displayResult("/");
+        Calculator calc_div = new Calculator();
+        calc_div.setNumbers(5, 3);
+        calc_div.divide();
+        calc_div.displayResult("/");
 
 
     }

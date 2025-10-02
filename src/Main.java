@@ -14,6 +14,5 @@ public class Main {
         calc_mul.displayResult("*");
 
 
-
     }
 }

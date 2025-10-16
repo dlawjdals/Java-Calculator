@@ -7,7 +7,7 @@ public class Main {
         calc_add.add();
         calc_add.displayResult("+");
 
-        AdvancedCalculator calc_mul = new AdvancedCalculator();
+        Calculator calc_mul = new Calculator();
         calc_mul.setNumbers(5, 3);
         calc_mul.multiply();
         calc_mul.displayResult("*");
